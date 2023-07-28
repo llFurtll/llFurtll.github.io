@@ -46994,7 +46994,7 @@ e===$&&A.b()
 d=t.N
 l=A.aP(["key",J.b4(e.c,"chave")],d,d)
 s=7
-return A.Y(n.a.tc(0,l,"http://191.252.102.169:3000/categorias",t.j),$async$m_)
+return A.Y(n.a.tc(0,l,"https://vps48567.publiccloud.com.br/categorias",t.j),$async$m_)
 case 7:k=a2
 j=k.a
 i=k.c
@@ -47077,7 +47077,7 @@ e=t.N
 m=A.aP(["email",B.eG.gjg().d_(f.a)],e,e)
 f=h.Iz(B.L.gjg().d_(b),g)
 s=7
-return A.Y(n.a.rP(A.aP(["Content-Type","application/json","key",B.eG.gjg().d_(f.a)],e,e),B.aR.Ve(m,null),"http://191.252.102.169:3000/login"),$async$m9)
+return A.Y(n.a.rP(A.aP(["Content-Type","application/json","key",B.eG.gjg().d_(f.a)],e,e),B.aR.Ve(m,null),"https://vps48567.publiccloud.com.br/login"),$async$m9)
 case 7:l=a1
 k=l.a
 j=l.c
@@ -47278,7 +47278,7 @@ b=t.N
 l=A.aP(["key",J.b4(c.c,"chave")],b,b)
 k=J.b4(d.b.c,"email")
 s=7
-return A.Y(n.a.tc(0,l,"http://191.252.102.169:3000/produtos?email="+A.k(k)+"&idCategoria="+a1,t.j),$async$m0)
+return A.Y(n.a.tc(0,l,"https://vps48567.publiccloud.com.br/produtos?email="+A.k(k)+"&idCategoria="+a1,t.j),$async$m0)
 case 7:j=a3
 i=j.a
 h=j.c
@@ -47319,7 +47319,7 @@ g=t.N
 n=A.aP(["key",J.b4(h.c,"chave")],g,g)
 m=A.aP(["email",J.b4(i.b.c,"email"),"idProduto",""+a],g,t.z)
 s=6
-return A.Y(o.a.rP(n,m,"http://191.252.102.169:3000/associacao"),$async$lM)
+return A.Y(o.a.rP(n,m,"https://vps48567.publiccloud.com.br/associacao"),$async$lM)
 case 6:l=c
 k=l.a
 j=l.c
@@ -47351,7 +47351,7 @@ g=t.N
 n=A.aP(["key",J.b4(h.c,"chave")],g,g)
 m=A.aP(["email",J.b4(i.b.c,"email"),"idProduto",""+a],g,t.z)
 s=6
-return A.Y(o.a.rP(n,m,"http://191.252.102.169:3000/desassociacao"),$async$lS)
+return A.Y(o.a.rP(n,m,"https://vps48567.publiccloud.com.br/desassociacao"),$async$lS)
 case 6:l=c
 k=l.a
 j=l.c
